@@ -1,0 +1,17 @@
+variable "Kubernetes.Deployment.Name" {
+    value "audits" {
+        description = ""
+    }
+}
+
+variable "Kubernetes.Ingress.Name" {
+    value "audits" {
+        description = ""
+    }
+}
+
+variable "Kubernetes.Service.Name" {
+    value "audits" {
+        description = ""
+    }
+}
